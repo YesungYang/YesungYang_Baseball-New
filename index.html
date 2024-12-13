@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baseball</title>
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .box-container {
+        display: flex;
+        align-items: flex-start;
+        gap: 2rem;
+        padding: 2rem;
+      }
+
+      .artifact-space {
+        flex: 1;
+        min-width: 400px;
+        height: 500px;
+        border: 1px solid #ccc; /* Added border to see container */
+      }
+
+      .description-box {
+        flex: 1;
+      }
+
+      .model-placeholder {
+        display: none;
+      }
+
+      model-viewer {
+        width: 100%;
+        height: 100%;
+        background-color: #f5f5f5;
+        --poster-color: transparent;
+      }
+
+      /* Added loading indicator */
+      model-viewer::part(default-progress-bar) {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+
+
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="hero-content">
+        <h1>Welcome to Baseball world</h1>
+        <p>Your one-stop destination for amazing content</p>
+      </div>
+      <img src="./assest/images/Hero image-Camera 2.png" alt="Hero Image" class="hero-image" />
+    </header>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="logo">The History of Baseball in Latin America</div>
+      <ul class="nav-links">
+        <li><a href="#main-content-1">Jersey</a></li>
+        <li><a href="#main-content-2">Baseball</a></li>
+        <li><a href="#main-content-3">Batting Helmet</a></li>
+      </ul>
+    </nav>
+
+
+    <!-- Main Content Section 1 -->
+    <section class="main-content" id="main-content-1">
+      <div class="box-container">
+        <div class="artifact-space">
+          <model-viewer
+            src="./nmah-2018_0223_01a-aztecas_jersey-150k-4096_std.glb"
+            alt="A 3D model of an astronaut"
+            ar
+            auto-rotate
+            camera-controls
+          ></model-viewer>
+        </div>
+
+        <div class="box description-box">
+          <h2>Significance of the Kansas City Aztecas Jersey</h2>
+          <p>
+            <strong>Connection to Ethnic Communities:</strong> The source
+            categorizes the jersey under "Home and Community Life: Ethnic",
+            indicating its connection to a specific cultural group within
+            American society. This suggests that the Kansas City Aztecas likely
+            represented a team or league associated with a particular ethnic
+            community, potentially Hispanic or Latino Americans.<br />
+            <strong
+              >Potential for Exploring Underrepresented Narratives:</strong
+            >
+            The presence of this jersey in the Smithsonian collection points to
+            a broader effort by institutions to acknowledge and preserve the
+            history of diverse communities in American sports. Historically,
+            mainstream sports narratives have often overlooked the contributions
+            and experiences of minority groups. The inclusion of the Kansas City
+            Aztecas jersey suggests a shift towards inclusivity and a
+            recognition of the importance of representing a wider range of
+            experiences within the American sports landscape.
+          </p>
+        </div>
+      </div>
+
+      <div class="box-container gallery">
+        <div class="box">
+          <img
+            src="assest/images/Jersey-Camera 7.png"
+            alt="Related Image 1"
+          />
+        </div>
+        <div class="box">
+          <img
+            src="assest/images/Jersey detail-Camera 3.png"
+            alt="Related Image 2"
+          />
+        </div>
+        <div class="box">
+          <img
+            src="assest/images/Jersey tag-Camera 5.png"
+            alt="Related Image 3"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content Section 2 -->
+    <section class="main-content" id="main-content-2">
+      <div class="box-container">
+        <div class="artifact-space">
+          <model-viewer
+            src="./nmah-cl_310547_119-signed_ball-100k-2048_std_draco.glb"
+            alt="A 3D model of an astronaut"
+            ar
+            auto-rotate
+            camera-controls
+          ></model-viewer>
+        </div>
+        <div class="box description-box">
+          <h2>
+            The Historical Significance of a 1953 Chicago White Sox Signed
+            Baseball
+          </h2>
+          <p>
+            <strong>Historical Significance:</strong> The 1953 Chicago White Sox
+            signed baseball, housed in the Smithsonian National Museum of
+            American History, commemorates the team's third-place finish in the
+            American League. Though not a championship, it highlights an
+            important achievement in the White Sox's history.<br />
+            <strong>Key Signatures:</strong> Signatures from players like Nelson
+            Fox, Minnie Minoso, and Bob Keegan connect the artifact to the
+            individuals who contributed to the team's success. Minoso, a
+            Cuban-born player, was a trailblazer for Latin American talent in
+            Major League Baseball.<br />
+            <strong>Museum Inclusion:</strong> The ball's presence in the
+            Smithsonian collection emphasizes its value as a historical
+            artifact, reflecting significant moments in American culture and
+            sports history.
+          </p>
+        </div>
+      </div>
+
+      <div class="box-container gallery">
+        <div class="box">
+          <img
+            src="assest/images/Advanced multimedia baseball-Camera 3.png"
+            alt="Related Image 1"
+          />
+        </div>
+        <div class="box">
+          <img
+            src="assest/images/Advanced multimedia baseball-냥ㄷ.png"
+            alt="Related Image 2"
+          />
+        </div>
+        <div class="box">
+          <img src="assest/images/ㅇㄹ-Camera 4.png" alt="Related Image 3" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content Section 3 -->
+    <section class="main-content" id="main-content-3">
+      <div class="box-container">
+        <div class="artifact-space">
+          <model-viewer
+            src="./nmah-1981_0706_06-clemente_helmet-150k-4096_std (2).glb"
+            alt="A 3D model of an astronaut"
+            ar
+            auto-rotate
+            camera-controls
+          ></model-viewer>
+        </div>
+        <div class="box description-box">
+          <h2>
+            The Historical Significance of Roberto Clemente's Batting Helmet
+          </h2>
+          <p>
+            <strong
+              >Clemente was the first Latin American player inducted into the
+              National Baseball Hall of Fame.</strong
+            >
+            This was a watershed moment for Latin American baseball players and
+            fans, as it signaled that they were finally being recognized for
+            their contributions to the sport.<br />
+            <strong
+              >He served as a role model for aspiring athletes in Latin
+              America.</strong
+            >
+            Clemente's success on the field, combined with his humanitarian work
+            off the field, inspired many young people in Latin America to pursue
+            their dreams.<br />
+            <strong
+              >Clemente's death while delivering aid to earthquake victims in
+              Nicaragua cemented his status as a hero in Latin America.</strong
+            >
+            His selfless act of charity showed the world the compassion and
+            generosity of the Latin American people.
+          </p>
+        </div>
+      </div>
+
+      <div class="box-container gallery">
+        <div class="box">
+          <img
+            src="assest/images/Batting Helmet-Camera11.png"
+            alt="Related Image 1"
+          />
+        </div>
+        <div class="box">
+          <img
+            src="assest/images/Batting Helmet inside-Camera 2.png"
+            alt="Related Image 2"
+          />
+        </div>
+        <div class="box">
+          <img src="assest/images/Batting Helmet inside-Camera.png" />
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer id="footer">
+      <p>© 2024 Baseball History. All rights reserved.</p>
+    </footer>
+
+    <script>
+      // Add error handling for model loading
+      document.querySelectorAll("model-viewer").forEach((viewer) => {
+        viewer.addEventListener("error", () => {
+          console.error("Error loading model:", viewer.src);
+        });
+      });
+    </script>
+  </body>
+</html>
