@@ -84,6 +84,8 @@ body {
   border-radius: 8px;
   background-color: #f9f9f9;
   max-width: calc(50% - 1rem); /* 두 개씩 배치 */
+  word-wrap: break-word; /* 텍스트 강제 줄바꿈 */
+  text-align: left; /* 텍스트 정렬 */
 }
 
 .main-box img,
@@ -135,9 +137,11 @@ footer {
 
   .box {
     max-width: 100%; /* 화면 전체 사용 */
+    word-wrap: break-word; /* 모바일에서도 줄바꿈 적용 */
   }
 
   #gallery .box {
     max-width: 100%;
   }
 }
+
